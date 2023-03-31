@@ -1,0 +1,34 @@
+dialog
+{
+    display:flex;
+    top:20%;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(175, 175, 175);
+    justify-content: center;
+    overflow: auto;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+div
+{
+    gap: 10px;
+    align-items: center;
+}
+
+h3
+{
+    color:blue;
+}
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+}
+

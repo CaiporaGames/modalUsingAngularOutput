@@ -1,0 +1,23 @@
+<div>
+    <dialog>
+        <div class="column">
+            <button (click)="controlModalWindow()">Close</button>
+            <ng-container *ngFor="let number of [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]">
+                <div class="row">
+                    <div class="row">
+                        <h2>Item ID: </h2>
+                        <h3>IT112</h3>{{number}}
+                    </div>
+                    <div class="row">
+                        <h2>Item Name: </h2>
+                        <h3>Pé de Cabra</h3>
+                    </div>
+                    <div class="row">
+                        <h2>Item Type: </h2>
+                        <h3>Receive</h3>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+    </dialog>
+</div>
